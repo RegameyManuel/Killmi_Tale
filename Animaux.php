@@ -75,7 +75,7 @@ class Truc extends Animal
 {
     public function crier(): void
     {
-        echo $this->nom . " fait un bruis : oiqsfgoihxfvôh<xcv!\n";
+        echo $this->nom . " fait un bruit : oiqsfgoihxfvôh<xcv!\n";
     }
 
     /**
@@ -192,8 +192,6 @@ function testPOO()
 
     foreach ($mesAnimaux as $animal) {
         // Tous héritent de la méthode getNom()
-        echo "Nom : " . $animal->getNom() . "\n";
-        //$animal->nom = "plouf___";
         echo "Nom : " . $animal->getNom() . "\n";
 
         // Chaque sous-classe a sa propre version de crier() et seDeplacer()
