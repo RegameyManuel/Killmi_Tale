@@ -3,8 +3,8 @@ import { World } from "./world.js"
 import { Input } from "./input.js";
 
 export const TILE_SIZE = 32;
-export const COLS = 15;
-export const ROWS = 20;
+export const COLS = 32;
+export const ROWS = 16;
 const GAME_WIDTH = TILE_SIZE * COLS;
 const GAME_HEIGHT = TILE_SIZE * ROWS;
 
